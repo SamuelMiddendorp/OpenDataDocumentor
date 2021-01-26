@@ -3,6 +3,18 @@
     "glossary": {
         "title": "example glossary",
 		"GlossDiv": {
+            "foo": [1,1,2,3],
+            "foo_x": [{
+                "name": "foo",
+                "children":[{
+                    "name": "Samuel",
+                    "lastname": "Middendorp",
+                    "child": {
+                        "foo": "x",
+                        "isFoo": true
+                    }
+                }]
+            }],
             "title": "S",
 			"GlossList": {
                 "GlossEntry": {
